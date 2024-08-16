@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1220px;
+}
+body{
+    background-color: var(--body);
+    transition: 0.2s;
+}
+:root{
+    --qora:#000;
+    --oq:#fff;
+    --orng:#F79F1A;
+    --body:#fff
+    --card:#fff;
+    --star:#FFD43B;
+    --play:#F79F1A;
+    --app:white;
+}
+.dark{
+    --qora:#fff;
+    --oq:#000;
+    --orng:#fbff00;
+    --body:rgb(5, 5, 27);
+    --card:#a19a9a27;
+    --star:#fff;
+    --play:rgb(0, 0, 0);
+    --app:#ffffff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: var(--qora);
+    font-family: "Paragraph 2", sans-serif;
+    font-weight: 600;
+    transition: 0.4s;
+}
+nav a:hover{
+    border-bottom: 4px solid grey;
+    border-radius: 5px;
+    font-size: 19px;
+}
+i{
+    margin: 0px 10px;
+    color: var(--qora);
+}
+.btn{
+    border: none;
+    font-size: 20px;
+    background-color: #07070000;
+}
